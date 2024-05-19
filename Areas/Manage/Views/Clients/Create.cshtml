@@ -1,0 +1,41 @@
+﻿@model Clients
+@*    <form method="post" enctype="multipart/form-data"> bunlari ozumuz yazdiq DIGGET!*@
+
+<div class="container">
+
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Name</label>
+            <input class="form-control">
+            <span asp-validation-for="ImgFile" style="color:red"></span>
+
+
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label">Description</label>
+            <input class="form-control">
+            <span asp-validation-for="ImgFile" style="color:red"></span>
+
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Position" class="form-label">Position</label>
+            <input class="form-control" i>
+
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ImgFile" class="form-label">Photo</label>
+            <input class="form-control" asp-for="ImgFile">
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+    @*   <span asp-validation-for="ImgFile" style="color:red"></span>*@
+
+</div>
+

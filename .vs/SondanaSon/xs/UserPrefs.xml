@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{502DD43B-32FE-4D22-B3B1-33629E8DDE3F}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/AccountController.cs">
+    <Files>
+      <File FileName="DAL/AppDbContext.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Controllers/AccountController.cs" Line="111" Column="50" />
+      <File FileName="Views/Account/Login.cshtml" Line="27" Column="73" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="ViewModels/Account/LoginVm.cs" Line="25" Column="1" />
+      <File FileName="ViewModels/Account/RegisterVm.cs" Line="5" Column="1" />
+      <File FileName="Views/Account/Register.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SondanaSon" expanded="True">
+            <Node name="SondanaSon">
+              <Node name="Controllers" expanded="True">
+                <Node name="AccountController.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True">
+                <Node name="Account" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SondanaSon PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
